@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
             zombie.style.transform = "scale("+scaleSmall+")";
         }
 
-        var time = Math.random()*(10-4)+4;
-        zombie.style.animationDuration = "0.5s," +time+"s";
+        var time = Math.random()*(12-6)+6;
+        zombie.style.animationDuration = "0.5s,"+time+"s";
         zombie.style.zIndex = 300- position_horizontal;
 
         board.appendChild(zombie);
